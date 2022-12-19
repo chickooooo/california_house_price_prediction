@@ -1,0 +1,88 @@
+raw_data.shape
+    (20640, 9)
+
+
+median_income.describe()
+    count    20640.000000
+    mean         3.870671
+    std          1.899822
+    min          0.499900
+    25%          2.563400
+    50%          3.534800
+    75%          4.743250
+    max         15.000100
+
+
+house_age.describe()
+    count    20640.000000
+    mean        28.639486
+    std         12.585558
+    min          1.000000
+    25%         18.000000
+    50%         29.000000
+    75%         37.000000
+    max         52.000000
+
+
+average_rooms.describe()
+    count    20640.000000
+    mean         5.429000
+    std          2.474173
+    min          0.846154
+    25%          4.440716
+    50%          5.229129
+    75%          6.052381
+    max        141.909091
+highly right skewed
+
+
+average_bedrooms.describe()
+    count    20640.000000
+    mean         1.096675
+    std          0.473911
+    min          0.333333
+    25%          1.006079
+    50%          1.048780
+    75%          1.099526
+    max         34.066667
+highly right skewed
+
+
+population.describe()
+    count    20640.000000
+    mean      1425.476744
+    std       1132.462122
+    min          3.000000
+    25%        787.000000
+    50%       1166.000000
+    75%       1725.000000
+    max      35682.000000
+highly right skewed
+
+
+average_occupancy.describe()
+    count    20640.000000
+    mean         3.070655
+    std         10.386050
+    min          0.692308
+    25%          2.429741
+    50%          2.818116
+    75%          3.282261
+    max       1243.333333
+highly right skewed
+
+
+median_house_value.describe()
+    count    20640.000000
+    mean        35.631861
+    std          2.135952
+    min         32.540000
+    25%         33.930000
+    50%         34.260000
+    75%         37.710000
+    max         41.950000
+
+
+correlations:
+    - median_income - median_house_value -> 0.69
+    - average_rooms - average_bedrooms -> 0.85

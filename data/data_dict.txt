@@ -1,0 +1,28 @@
+median_income:
+    - median income in block group
+    - measured in tens of thousands of US Dollars
+
+house_age:
+    - median house age in block group
+
+average_rooms:
+    - average number of rooms per household
+
+average_bedrooms:
+    - average number of bedrooms per household
+
+population:
+    - block group population
+
+average_occupancy:
+    - average number of household members
+
+latitude:
+    - block group latitude
+
+longitude:
+    - block group longitude
+
+median_house_value
+    - median value of house
+    - measured in hundreds of thousands of US Dollars
