@@ -2,6 +2,12 @@ raw_data.shape
     (20640, 9)
 
 
+training_data.shape
+    (16512, 9)
+testing_data.shape
+    (4128, 9)
+
+
 median_income.describe()
     count    20640.000000
     mean         3.870671
