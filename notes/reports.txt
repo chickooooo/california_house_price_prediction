@@ -6,6 +6,14 @@ train set score: 0.72
 cross validation score: 0.72 (std: 0.03)
 note: underfitting
 
+Model 2: Decision Tree Regressor
+features: all
+parameters: {max_depth=7}
+performance metric: root mean squared error
+train set score: 0.62
+cross validation score: 0.66 (std: 0.01)
+note: underfitting
+
 
 Performance on test set:
 root mean squared error: -
