@@ -1,0 +1,18 @@
+[.] load dataset
+[.] take care of null values
+[.] seperate features and labels
+[.] create train and test set
+[.] normalize numerical features
+[.] encode categorical features
+[.] create final X_train
+
+[.] train model
+[.] evaluate model
+[ ] hyperparameter tuning
+
+[ ] data prepocessing on X_train
+[ ] check model performance on test set
+
+[ ] save model
+
+[ ] cleaning & documentation

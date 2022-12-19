@@ -1,0 +1,11 @@
+Model 1: Linear Regression (base model)
+features: all
+parameters: default
+performance metric: root mean squared error
+train set score: 0.72
+cross validation score: 0.72 (std: 0.03)
+note: underfitting
+
+
+Performance on test set:
+root mean squared error: -
